@@ -1,0 +1,70 @@
+.body2 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup_form {
+    width: 100%;
+    padding: 0 50px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.form2 {
+    text-align: center;
+    height: 500px;
+    margin: 80px;
+  }
+
+.signup_text {
+      width: 500px;
+      height: 1100px;
+      text-align: center;
+      padding-top: 100px;
+      margin-top: 100px;
+      font-size: 20px;
+      border: 2px solid grey;
+      border-radius: 18px;
+  }
+  input[type="text"],
+  input[type="password"]
+  input[type="email"] {
+    display: flex;
+    border: 0;
+    background: none;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid rgba(78, 78, 78, 0.692);
+    padding: 12px 20px;
+    margin: 15px 20px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+  
+  input[type="submit"] {
+    display: flex;
+    border: 0;
+    background: white;
+    justify-content: center;
+    border: 2px solid rgba(3, 1, 1, 0.692);
+    padding: 12px 60px;
+    width: 200px;
+    margin: 60px 20px;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    color: white;
+    background: hsla(0, 0%, 3%, 0.541);
+    border: hsla(0, 0%, 4%, 0.541);
+  }

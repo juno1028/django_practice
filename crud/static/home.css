@@ -1,10 +1,63 @@
 .font-color {
-    color: salmon;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    padding: 30px 30px;
+    color: #e8e8e8;
 }
 
-body {
-    background-image: url("book.jpg");
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover*/
-   }
+.list {
+    display: flex;
+    padding: 10px 10px;
+    margin: 0px 200px;
+    justify-content: center;
+    background: #a9c6de;
+    text-align: center;
+}
+
+.in-list1 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.in-list2 {
+    text-align: center;
+}
+
+.th_title {
+    margin-top: 10px;
+    color: black;
+    font-size: 20px;
+}
+
+.picture {
+    margin: 20px 50px;
+}
+
+.thumbnail {
+    margin: 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-decoration: none;
+  }
+
+.posting {
+    margin-top: 80px;
+    text-align: center;
+    width: 200px;
+    height: 70px;
+    font-size: 30px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: #e8e8e8;
+    background-color: #e8e8e8;
+    justify-content: space-between;
+    align-items:  center;
+    color: black;
+}
+
+.post {
+    color: black;
+}
